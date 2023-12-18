@@ -1,0 +1,3 @@
+image_t tinyFont = "../../Fontbitmaps/TinyFont/tinyfont_4x4.png"
+
+image_t arduboyFont = "arduboyFont_6x8.png"

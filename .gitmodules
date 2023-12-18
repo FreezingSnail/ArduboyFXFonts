@@ -1,0 +1,12 @@
+[submodule "Font3x5"]
+	path = Font3x5
+	url = https://github.com/filmote/Font3x5.git
+[submodule "Arduboy-TinyFont"]
+	path = Arduboy-TinyFont
+	url = https://github.com/BotiKis/Arduboy-TinyFont.git
+[submodule "Font4x6"]
+	path = Font4x6
+	url = https://github.com/filmote/Font4x6.git
+[submodule "Arduboy-Python-Utilities"]
+	path = Arduboy-Python-Utilities
+	url = https://github.com/MrBlinky/Arduboy-Python-Utilities.git
