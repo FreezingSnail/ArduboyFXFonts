@@ -20,6 +20,6 @@ image_t arduboyFont = "arduboyFont_6x8.png"
 ### tinyfont
 ![tinyfont](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/TinyFont.png?raw=true)
 ### Filmote's 4x6
-![Filmote's 4x6](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmotes4x6.png?raw=true)
+![Filmote's 4x6](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmote4x6.png?raw=true)
 ### Filmote's 3x5
-![Filmote's 3x5](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmotes3x5.png?raw=true)
+![Filmote's 3x5](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmote3x5.png?raw=true)
