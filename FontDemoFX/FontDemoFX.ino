@@ -81,6 +81,23 @@ static void draw3x5Font() {
     }
 }
 
+uint8_t nanoHeader[] = "Zephs's 3xs Font";
+
+static void drawNanoFont() {
+    FX::setFont(nano, dcmNormal);
+    FX::drawString(nanoHeader);
+    uint8_t c = 0;
+    for (uint8_t j = 0; j < 7; j++) {
+        for (int8_t i = 0; i < 21; i++) {
+            FX::drawBitmap(0 + (i * 6), 9 + (8 * j), nano, c, dbmNormal);
+            c++;
+            if (c == FONTEND) {
+                return;
+            }
+        }
+    }
+}
+
 void loop() {
     if (!(arduboy.nextFrame()))
         return;
@@ -100,6 +117,9 @@ void loop() {
         break;
     case 4:
         draw3x5Font();
+        break;
+    case 5:
+        drawNanoFont();
         break;
     }
 

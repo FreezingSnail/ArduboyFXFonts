@@ -1,5 +1,6 @@
 image_t tinyFont = "../../Fontbitmaps/TinyFont/tinyfont_5x4.png"
 image_t f4x6 = "../../Fontbitmaps/Font4x6/Font_5x6.png"
 image_t f3x5 = "../../Fontbitmaps/Font3x5/Font_4x5.png"
+image_t nano = "../../Fontbitmaps/NanoFont/NanoFont_4x3.png"
 
 image_t arduboyFont = "arduboyFont_6x8.png"

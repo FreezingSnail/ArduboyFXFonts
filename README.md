@@ -23,3 +23,5 @@ image_t arduboyFont = "arduboyFont_6x8.png"
 ![Filmote's 4x6](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmote4x6.png?raw=true)
 ### Filmote's 3x5
 ![Filmote's 3x5](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmote3x5.png?raw=true)
+### Zephyrtronium's 3x3
+![Zephyrtronium's 3x3](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Zephyrtronium_3x3.png?raw=true)
