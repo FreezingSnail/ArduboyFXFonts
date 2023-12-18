@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - v*
+    branches: 
+      - actions
 
 permissions:
   contents: write
@@ -38,23 +40,21 @@ jobs:
       - name: Install Pillow for FX data generation
         run: pip install Pillow
 
-      - name: Enter demo dir
-        run: cd FontDemoFX
 
       - name: Generate FX data
-        run: make gen
+        run: cd FontDemoFX && make gen
 
       - name: Build game hex
-        run: 	mkdir build && arduino-cli compile --fqbn "arduboy-homemade:avr:arduboy" --build-properties build.project_name=FontDemoFX --output-dir build/
+        run: 	cd FontDemoFX && mkdir build && arduino-cli compile --fqbn "arduboy-homemade:avr:arduboy" --build-properties build.project_name=FontDemoFX --output-dir build/
 
       - name: Copy fx data for release
-        run: cp src/fxdata/fxdata.bin build/
+        run: cp FontDemoFX/fxdata/fxdata.bin FontDemoFX/build/
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
           name: FontDemoFX
-          path: build/
+          path: FontDemoFX/build/
 
   release:
     name: Upload artifacts to release
