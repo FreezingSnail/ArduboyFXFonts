@@ -4,7 +4,8 @@ on:
   push:
     tags:
       - v*
-    branch: ["actions"]
+    branches: 
+      - actions
 
 permissions:
   contents: write
