@@ -15,11 +15,11 @@ image_t arduboyFont = "arduboyFont_6x8.png"
 ```
 ## Images
 ### Arduboy font
-![alt text](https://https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/ArduboyFontPage1.png?raw=true)
-![alt text](https://https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/ArduboyFontPage2.png?raw=true)
+![Arduboy font page 1](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/ArduboyFontPage1.png?raw=true)
+![Arduboy font page 2](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/ArduboyFontPage2.png?raw=true)
 ### tinyfont
-![alt text](https://https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/TinyFont.png?raw=true)
+![tinyfont](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/TinyFont.png?raw=true)
 ### Filmote's 4x6
-![alt text](https://https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmotes4x6.png?raw=true)
+![Filmote's 4x6](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmotes4x6.png?raw=true)
 ### Filmote's 3x5
-![alt text](https://https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmotes3x5.png?raw=true)
+![Filmote's 3x5](https://github.com/FreezingSnail/ArduboyFXFonts/blob/main/Example_Images/Filmotes3x5.png?raw=true)
