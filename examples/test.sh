@@ -11,3 +11,6 @@ python3 tools/textImageGeneration.py --font Fontbitmaps/NanoFont/NanoFont_4x3.pn
 
 mkdir -p examples/generated_TinyFont
 python3 tools/textImageGeneration.py --font Fontbitmaps/TinyFont/tinyfont_5x4.png --input examples/strings.txt --output_dir examples/generated_TinyFont
+
+mkdir -p examples/generated_grey
+python3 tools/textImageGeneration.py --font Fontbitmaps/grey/grey_6x6.png --input examples/strings.txt --output_dir examples/generated_grey

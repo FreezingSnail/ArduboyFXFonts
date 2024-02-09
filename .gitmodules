@@ -10,3 +10,6 @@
 [submodule "Arduboy-Python-Utilities"]
 	path = Arduboy-Python-Utilities
 	url = https://github.com/MrBlinky/Arduboy-Python-Utilities.git
+[submodule "arduboy_grayscale_rpg"]
+	path = arduboy_grayscale_rpg
+	url = git@github.com:tiberiusbrown/arduboy_grayscale_rpg.git
