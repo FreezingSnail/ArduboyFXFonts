@@ -1,0 +1,9 @@
+namespace CreatureNames {
+creature0  = "SquibbleSnail"
+creature1  = "SQUABLESNAIL"
+}
+
+namespace Test {
+test1 = "TEST1"
+test2 = "test2"
+}
